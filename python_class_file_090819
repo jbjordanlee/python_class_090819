@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+class family():
+  next_vacation_time = 'summer_2020'
+  
+  def __init__(self, firstname, lastname):
+    self.firstname = firstname
+    self.lastname = lastname
+    
+f1 = family('Mike', 'Toel')
+print(f1.firstname)
+    
+    
